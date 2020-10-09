@@ -1,0 +1,22 @@
+# ---------------------------------Logger Information---------------------------------------
+#logging.level.root=trace
+#logging.level.com.javaexpress.organization=info
+#logging.level.org.springframework.web= DEBUG
+#logging.level.org.hibernate= DEBUG
+#logging.level.net.guides = DEBUG
+#logging.level.com.javaexpress.organization=INFO
+
+#Logging Pattern for files
+#logging.pattern.file=%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+
+#Logging Pattern for console
+#logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+#logging.pattern.console=off
+#logging.file.name=var/prod.log
+
+# ---------------------------Spring Banner Information-------------------------------------
+spring.banner.location=classpath:banner-dev
+#spring.main.banner-mode=off
+spring.banner.image.location = classpath:logo.png
+# ----------------------------------------------------------------
+
