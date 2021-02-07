@@ -18,7 +18,3 @@ public class CSection29SecurityFormLoginApplication {
 	}
 
 }
-
-
-// http://localhost:8080/hello - unauthorized
-// add http basic auth in postman
